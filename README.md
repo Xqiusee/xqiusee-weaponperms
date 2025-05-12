@@ -1,8 +1,8 @@
 ## Cyber WeaponsPerms Command
 
-## Cyber Development Discord Server
+## Xqiusee Development Discord Server
 
-Link: https://discord.gg/KTwVA8AEMK
+Link: https://discord.gg/4e6uEnM4
 
 ### Description
 
