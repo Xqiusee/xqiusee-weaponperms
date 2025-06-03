@@ -1,24 +1,42 @@
-## Inkflow WeaponsPerms Command
+# 🔫 Inkflow WeaponsPerms Command
+A simple but powerful weapon restriction system for FiveM servers, developed by **Inkflow Studios**.
 
-## Inkflow Studios Discord Server
+---
 
-Link: https://discord.gg/KTwVA8AEMK
+## 🌐 Discord Support
+Join our community for support, updates, and more:  
+[https://discord.gg/KTwVA8AEMK](https://discord.gg/KTwVA8AEMK)
 
-### Description
+---
 
-This WeaponPerm Restirction Command. Is a command you can use within your FiveM Server, too restrict specified weapons.
+## 📌 Description
+The **WeaponsPerms** command allows server administrators to restrict access to specific weapons within their FiveM server. Perfect for enforcing role-based loadouts, server rules, or enhancing realism.
 
-### Dependencies
+---
 
-[https://github.com/overextended/ox_lib/releases](ox_lib) - Required to run this resource.
+## 📦 Dependencies
+This resource requires [ox_lib](https://github.com/overextended/ox_lib/releases) to function. Make sure it's installed and started before this script.
 
-### Usage
+---
 
-Please refer too: https://docs.fivem.net/docs/game-references/weapon-models/ for the Weapon Hash Key's
+## 🛠️ Usage
+To restrict specific weapons, follow these steps:
 
-### Documentation
+1. Open `shared/config.lua`.
+2. Add weapons you want to restrict using their hash keys.
+
+You can find weapon hash keys here:  
+[https://docs.fivem.net/docs/game-references/weapon-models/](https://docs.fivem.net/docs/game-references/weapon-models/)
+
+---
+
+## 📄 Configuration Example
 
 ```lua
--- Example usage:
--- Head to shared/config.lua and start to restrict specific weapons.
-```
+-- shared/config.lua
+
+RestrictedWeapons = {
+    [`WEAPON_RPG`] = true,
+    [`WEAPON_MINIGUN`] = true,
+    [`WEAPON_GRENADELAUNCHER`] = true,
+}
