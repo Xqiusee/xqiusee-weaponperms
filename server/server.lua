@@ -7,8 +7,8 @@ local function countRestrictedWeapons()
 end
 
 local weaponCount = countRestrictedWeapons()
-print(("^5[Cyber WeaponPerms]^0 ^2Script has started successfully.^0 Restricted Weapons Loaded: ^3%d^0."):format(weaponCount))
-print(("^5[Cyber Development]^0 ^2Join Our Discord:^0 https://discord.gg/KTwVA8AEMK"))
+print(("^5[Inkflow WeaponPerms]^0 ^2Script has started successfully.^0 Restricted Weapons Loaded: ^3%d^0."):format(weaponCount))
+print(("^5[Inkflow Studios]^0 ^2Join Our Discord:^0 https://discord.gg/KTwVA8AEMK"))
 
 RegisterNetEvent("WeaponPerms:checkPermission", function(weapon)
     local src = source
