@@ -1,4 +1,4 @@
-# Inkflow WeaponsPerms Command
+# Inkflow WeaponsPerms Script
 A simple but powerful weapon restriction system for FiveM servers, developed by **Inkflow Studios**.
 
 ---
