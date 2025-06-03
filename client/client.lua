@@ -18,7 +18,7 @@ RegisterNetEvent("WeaponPerms:permissionResult", function(isAllowed, weapon, mes
     if not isAllowed then
         RemoveWeaponFromPed(ped, weapon)
         lib.notify({
-            title = "Cyber Weaponperms",
+            title = "Inkflow Weaponperms",
             description = message,
             type = "error",
             position = 'center-right',
