@@ -43,4 +43,5 @@ RestrictedWeapons = {
     [`WEAPON_MINIGUN`] = {
         ace = "weapon.minigun",
         denyMessage = "^1You are not authorized to use the Minigun."
-    }
+    },
+}
