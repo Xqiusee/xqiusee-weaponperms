@@ -22,3 +22,8 @@ server_script {
 dependencies {
     "ox_lib"
 }
+
+escrow_ignore {
+    'shared/config.lua',
+    'README.md'
+}
