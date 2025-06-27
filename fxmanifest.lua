@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
-author 'Inkflow Studios / plugfivem'
+author 'Sentex Studios / plugfivem'
 description 'Weapon Permission System with ACE Permissions'
 version '1.0.0'
 
